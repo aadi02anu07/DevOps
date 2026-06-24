@@ -1,17 +1,17 @@
 <h1 align="center">
   <br>
-  <a href="http://gregsithole.com">
-  <img src="./src/assets/light-logo.svg" alt="GregSithole" width="200"></a>
+  <a href="https://github.com/aadi02anu07">
+  <img src="./src/assets/light-logo.svg" alt="Aditya Srivastava" width="200"></a>
   <br>
-  Greg Sithole's Personal Website
+  Aditya Srivastava's Personal Website
   <br>
 </h1>
 
-<h4 align="center">A simple personal website about <a href="http://gregsithole.com" target="_blank">Greg Sithole</a>.</h4>
+<h4 align="center">A simple personal website about <a href="https://github.com/aadi02anu07" target="_blank">Aditya Srivastava</a>.</h4>
 
 <br>
 
-![screenshot](https://github.com/GregSithole/gregsithole-react-portfolio/raw/master/src/assets/screenshot.png)
+![screenshot](./src/assets/screenshot.png)
 
 ## How To Use
 
@@ -19,10 +19,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/GregSithole/gregsithole-react-portfolio
+$ git clone https://github.com/aadi02anu07/Portfolio
 
 # Go into the repository
-$ cd gregsithole-react-portfolio
+$ cd Portfolio
 
 # Install dependencies
 $ yarn install
@@ -30,6 +30,19 @@ $ yarn install
 # Run the app
 $ yarn start
 ```
+
+### Using Docker
+
+You can also build and run this application using Docker. This ensures a consistent environment and uses Nginx to serve the optimized production build.
+
+```bash
+# Build the Docker image
+$ docker build -t gregsithole-react-portfolio .
+
+# Run the Docker container on port 8080
+$ docker run -p 8080:80 gregsithole-react-portfolio
+```
+Then open `http://localhost:8080` in your browser.
 
 <!-- ## Credits
 
