@@ -20,18 +20,18 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                            Hello! I'm Greg, and I'm based in Johannesburg, South Africa. I studied at Varisty College Sandton, where I completed my diploma in Software Development.<br /><br />
-                            Fastforward to today, and I can honestly say it's been a beautiful journery and I hope to grow even further as Software Engineer. My current focus these days
-                            is on expanidng my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.<br /><br />
+                            Hello! I'm Aditya, and I'm based in New Delhi, India. I am currently pursuing my Bachelor of Technology in Electronics and Communication Engineering at Guru Gobind Singh Indraprastha University.<br /><br />
+                            Fast forward to today, and I can honestly say it's been a beautiful journey. I hope to grow even further as a Software Engineer. My current focus these days
+                            is on expanding my portfolio by building more complex projects that I can add here, as well as being a great team player.<br /><br />
                             Here are a few technologies I’ve been working with recently:
                         </p>
                         <ul className="about__list">
-                            <li>JavaScript (ES6+)</li>
-                            <li>TypeScript</li>
-                            <li>React</li>
+                            <li>Java</li>
+                            <li>JavaScript / TypeScript</li>
+                            <li>Next.js / React.js</li>
                             <li>Node.js</li>
-                            <li>Postgres SQL</li>
-                            <li>NestJS</li>
+                            <li>PostgreSQL / MongoDB</li>
+                            <li>AWS / Serverless</li>
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
                     </div>
